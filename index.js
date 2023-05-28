@@ -14,7 +14,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 
-
 app.use("/api", route);
 
 app.use(async (req, res, next) => {
